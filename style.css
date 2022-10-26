@@ -1,0 +1,66 @@
+@import url('http://fonts.cdnfonts.com/css/gameplay');
+
+
+*{
+    margin: 0;
+    padding: 5;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+body{
+    background-image: url(https://wallpapers.com/images/hd/japan-pink-aesthetic-pixel-art-ap6kcu0z2bjhlqol.jpg);
+    background-size: large
+}
+
+.head{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2.0px;
+        background-color: #f891bc;
+        font-size: 30px;
+}
+
+.head-img{
+
+    height: 60px;
+    display: flex;
+    
+}
+
+.head-menu{
+    display: flex;
+    gap: 27px;
+}
+
+.head-item{
+    color: white;
+    font-family: 'Gameplay', sans-serif;
+    padding: 10px;
+}
+
+.title{
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.switch{
+    height: 210px;
+    width: 550px;
+    margin: 35px;
+    
+}
+
+.tetris{
+    margin: 150px;
+}
+
+.pacman{
+    margin: 150px;
+}
+
+.pandajump{
+    margin: 150px;
+}
